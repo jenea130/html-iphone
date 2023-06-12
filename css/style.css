@@ -397,5 +397,34 @@ a {
     font-size: 20px;
 }
 
+.choose-color__main-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
 
+.choose-color__wrap {
+    display: flex;
+    justify-content: space-between;
+}
 
+.choose-color__item {
+    flex: 0 0 240px;
+}
+
+.choose-color__img {
+    margin-bottom: 16px;
+}
+
+.choose-color__content {
+    text-align: center;
+}
+
+.choose-color__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.choose-color__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+}
