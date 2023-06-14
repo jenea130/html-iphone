@@ -236,7 +236,7 @@ body {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     position: relative;
-    padding-bottom: 1000px;
+    /* padding-bottom: 1000px; */
 }
 
 body::after {
@@ -507,3 +507,34 @@ a {
 	width: 250px;
 
 }
+
+.footer-bottom {
+	padding: 48px 0;
+	background: #000;
+	color: #fff;
+}
+
+.footer-bottom__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-bottom__phone {
+	color: #717171;
+	font-size: 24px;
+}
+
+.footer-bottom__copyright {
+  font-size: 14px;
+	color: #717171;
+}
+
+.footer-bottom__logo {
+	position: relative;
+	left: 10px;
+}
+
+
+
+
