@@ -275,9 +275,12 @@ body::after {
 .btn--light {
 	color: var(--accent);
 	background: white;
-	border: 1px solid var(--accent);
 }
 
+.btn--light:hover {
+	background: var(--accent-hover);
+	color: #fff;
+}
 .container {
     margin: 0 auto;
     max-width: 1230px;
